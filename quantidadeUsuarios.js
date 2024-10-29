@@ -3,4 +3,8 @@ async function quantidadeUsuarios() {
     const res = await fetch(url)
     const res = await fetch(url)
   const dados = await res.json()
+
+  vonsole.log(dados)
   }
+
+  quantidadeUsuarios()
